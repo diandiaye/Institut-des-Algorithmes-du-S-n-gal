@@ -1,7 +1,17 @@
 # Institut-des-Algorithmes-du-S-n-gal
 Institut des Algorithmes du Sénégal
 
-# Foobar
+# Gradient descent algorithm
+
+## Index:
+
+- Basic Rules Of Derivation.
+
+- Gradient Descent With One Variable.
+
+- Gradient Descent With Two Variables.
+
+- Gradient Descent For Mean Squared Error Function.
 
 Foobar is a Python library for dealing with word pluralization.
 
