@@ -35,7 +35,7 @@ Generaly, to find the optimal values of the parameters, we find a formula that g
 
 ## Formula 
 
-$X$ = $X$ - lr *$\frac{d}{dX}f(X)$ 
+$$X$$ = $$X$$ - lr * $$\frac{d}{dX}f(X)$$ 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
