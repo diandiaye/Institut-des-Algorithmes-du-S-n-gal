@@ -37,11 +37,9 @@ Generaly, to find the optimal values of the parameters, we find a formula that g
 
 <img src="https://render.githubusercontent.com/render/math?math= X = X - lr * \frac{d}{dX}f(X)">
 
-<div class="math">
-\begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  
-\end{equation}
-</div>
+$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
