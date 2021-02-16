@@ -35,7 +35,7 @@ Generaly, to find the optimal values of the parameters, we find a formula that g
 
 ## Formula 
 
-$$ \frac{\partial \rho}{\partial t} + \nabla \cdot \vec{j} = 0 \,. \label{eq:continuity} $$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
