@@ -37,9 +37,7 @@ Generaly, to find the optimal values of the parameters, we find a formula that g
 
 `$$X$$ = $$X$$ - lr * $$\frac{d}{dX}f(X)$$`
 
-```math
-a^2+b^2=c^2
-```
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
