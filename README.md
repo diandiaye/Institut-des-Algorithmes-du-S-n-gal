@@ -35,8 +35,6 @@ Generaly, to find the optimal values of the parameters, we find a formula that g
 
 ## Formula 
 
-<img src="https://render.githubusercontent.com/render/math?math= X = X - lr * \frac{d}{dX}f(X)">
-
 Euler's formula is remarkable: $e^{i\pi} + 1 = 0$.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
