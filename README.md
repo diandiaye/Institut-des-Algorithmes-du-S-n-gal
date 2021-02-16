@@ -1,6 +1,8 @@
 # Institut-des-Algorithmes-du-S-n-gal
 Institut des Algorithmes du Sénégal
 
+https://medium.com/towards-artificial-intelligence/gradient-descent-algorithm-explained-2fe9da0de9a2
+
 # Gradient descent algorithm
 
 ## Index:
