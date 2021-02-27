@@ -1,13 +1,8 @@
 # Institut-des-Algorithmes-du-S-n-gal
 Institut des Algorithmes du Sénégal
 
-## Les modèles de regression
-https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a
-
-http://www.sthda.com/english/wiki/regression-analysis-essentials-for-machine-learning#:~:text=Regression%20analysis%20consists%20of%20a,function%20of%20the%20x%20variables.
 
 
-https://medium.com/towards-artificial-intelligence/gradient-descent-algorithm-explained-2fe9da0de9a2
 
 # Gradient descent algorithm
 
