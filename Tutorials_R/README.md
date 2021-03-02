@@ -8,11 +8,20 @@ Institut des Algorithmes du Sénégal
 # Simulating COVID-19 interventions with R
 
 
-## Three representations of an SIR model:
+## 1. Three representations of an SIR model:
 
 - A verbal description
 - A graphical description
 - A mathematical description
+
+# 2. Solving differential equations in R
+
+ - Step 1: writing the differential equations in R
+ - Step 2: defining some values for the parameters
+ - Step 3: defining initial values for the variables
+ - Step 4: the points in time where to calculate variables values
+ - Step 5: numerically solving the SIR model
+
 
 
 Foobar is a Python library for dealing with word pluralization.
