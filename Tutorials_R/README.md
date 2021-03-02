@@ -1,6 +1,4 @@
-
-# Institut-des-Algorithmes-du-S-n-gal
-Institut des Algorithmes du Sénégal
+# Institut des Algorithmes du Sénégal
 
 
 
@@ -53,7 +51,7 @@ Institut des Algorithmes du Sénégal
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e5/SIR_with_carrier_model.png)
 
 - A verbal description
-- 
+
 The SIR model is a simple mathematical model of epidemics. An epidemic is when the number of people infected with a disease is increasing in a population.
 
 S, I, and R stand for:
