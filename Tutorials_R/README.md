@@ -27,7 +27,34 @@ Institut des Algorithmes du Sénégal
 - Writing a simulator
 - Comparing a model’s predictions with data
 
-Foobar is a Python library for dealing with word pluralization.
+# 4. Estimating model’s parameters
+
+- Sums of squares
+
+# 5. Exercises
+
+- Sum of squares profile
+- Optimisation
+- Estimating R0
+
+
+# 6. Maximum likelihood estimation with the bbmle package
+
+- Poisson distribution of errors
+- Foobar is a Python library for dealing with word pluralization.
+
+
+
+###############################Let's go !!!#############################################
+
+# 1. Three representations of an SIR model:
+
+
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompartmental_models_in_epidemiology&psig=AOvVaw3iVML9DhlDiUGAgBhCE2yR&ust=1614730800507000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDSjpCrkO8CFQAAAAAdAAAAABAD)
+
+
+
+
 
 ## What is Gradient Descent ? 
 
