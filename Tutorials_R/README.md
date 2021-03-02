@@ -16,11 +16,11 @@ Institut des Algorithmes du Sénégal
 
 # 2. Solving differential equations in R
 
- - Step 1: writing the differential equations in R
- - Step 2: defining some values for the parameters
- - Step 3: defining initial values for the variables
- - Step 4: the points in time where to calculate variables values
- - Step 5: numerically solving the SIR model
+ - f1. writing the differential equations in R
+ - f2. : defining some values for the parameters
+ - f3. : defining initial values for the variables
+ - f4. : the points in time where to calculate variables values
+ - f5. : numerically solving the SIR model
 
 # 3. Exercises
 
@@ -84,7 +84,7 @@ After installation, to be able to use the deSolve package, we need to load it:
 library(deSolve)# This makes it possible to use the "ode" function
 ```
 
-# - Step 1: writing the differential equations in R
+# - f1. writing the differential equations in R
 
 ```python
 sir <- function(time, variables, parameters) {
@@ -97,55 +97,56 @@ sir <- function(time, variables, parameters) {
 }
 ```
 
+# - f2. Initialize the parameters values
 
-
-
-
-
-
-
-
-
-
-
-
-
-## What is Gradient Descent ? 
-
-Gradient Descent is a machine learning algorithm thzt operates iteratively to find the optimal values for its parameters. It takes into account, defined learning rate, and initial parameter values.
-
-## How does Gradient Descent work ?
-
-- Start with initial valeus.
-
-- calculate cost
-
-- Update values using the update function.
-
-- Return minimized cost for the predifined cost function
-
-## Why do we need Gradient Descent ?
-
-Generaly, to find the optimal values of the parameters, we find a formula that give thme. But the Gradient Descent algorithm finds the values by itself.
-
-## Formula 
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;X=X-lr\frac{d}{dX}f(X)" title="\Large X=X-lr\frac{d}{dX}f(X)" />
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
 
 ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+params_val <- c(
+  beta  = 0.004, # infectious contact rate (/person/day)
+  gamma = 0.5    # recovery rate (/day)
+)
 ```
+# f3. Initialize the varibles of the model
+
+```python
+initial_variables <- c(
+  S = 999,  # number of susceptibles at time = 0
+  I =   1,  # number of infectious at time = 0
+  R =   0   # number of recovered (and immune) at time = 0
+)
+```
+
+# f4. Define time value
+
+```python
+time_values <- seq(0, 10) # days
+```
+# f5. Solve numerically the model
+
+Let's combine the values that we defined and the sir equation : 
+
+```python
+sir_mode_values <- ode(
+  y = initial_variables,
+  times = time_values,
+  func = sir,
+  parms = params_val 
+)
+```
+
+We can now print the results by using the following command :
+
+```python
+sir_values_1
+```
+
+
+# TO BE CONTINUED
+
+
+
+
+
+
 
 
