@@ -50,7 +50,7 @@ Institut des Algorithmes du Sénégal
 # 1. Three representations of an SIR model:
 
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompartmental_models_in_epidemiology&psig=AOvVaw3iVML9DhlDiUGAgBhCE2yR&ust=1614730800507000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDSjpCrkO8CFQAAAAAdAAAAABAD)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e5/SIR_with_carrier_model.png)
 
 
 
