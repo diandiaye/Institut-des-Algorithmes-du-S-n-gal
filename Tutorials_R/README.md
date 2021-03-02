@@ -48,10 +48,12 @@ Institut des Algorithmes du Sénégal
 ###############################Let's go !!!#############################################
 
 # 1. Three representations of an SIR model:
-
+- A graphical description
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e5/SIR_with_carrier_model.png)
 
+- A verbal description
+- 
 The SIR model is a simple mathematical model of epidemics. An epidemic is when the number of people infected with a disease is increasing in a population.
 
 S, I, and R stand for:
@@ -60,7 +62,34 @@ S - susceptible. These are people that are not infected with the disease yet. Ho
 I - infected or infectious. These are people that are infected with the disease and can transmit the disease to susceptible people.
 R - recovered. These are people who have recovered from the disease and are immune, so they can no longer be infected with the disease.
 
+- A mathmatical description
+
 ![alt text](http://agilevisualization.com/AgileVisualization/EpidemiologicalModels/figures/equation1.png)
+
+
+# 2. Simulating SIR model with R
+To solve a system of differential equations we have to find the values of the variables, in this case, we have to find  S I and R at a number of points in time. 
+These values will depend on the values of epidemiological parameters. 
+For solving numerically differential equations in R we use the ode() function of the deSolve package. 
+We have first to install this package on our system : 
+
+
+```python
+install.packages("deSolve")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
