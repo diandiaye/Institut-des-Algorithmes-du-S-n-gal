@@ -60,6 +60,7 @@ S - susceptible. These are people that are not infected with the disease yet. Ho
 I - infected or infectious. These are people that are infected with the disease and can transmit the disease to susceptible people.
 R - recovered. These are people who have recovered from the disease and are immune, so they can no longer be infected with the disease.
 
+![alt text](http://agilevisualization.com/AgileVisualization/EpidemiologicalModels/figures/equation1.png)
 
 
 
