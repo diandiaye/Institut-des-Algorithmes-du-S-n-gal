@@ -22,7 +22,10 @@ Institut des Algorithmes du Sénégal
  - Step 4: the points in time where to calculate variables values
  - Step 5: numerically solving the SIR model
 
+# 3. Exercises
 
+- Writing a simulator
+- Comparing a model’s predictions with data
 
 Foobar is a Python library for dealing with word pluralization.
 
