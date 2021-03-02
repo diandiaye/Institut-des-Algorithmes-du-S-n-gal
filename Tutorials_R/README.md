@@ -78,7 +78,24 @@ We have first to install this package on our system :
 install.packages("deSolve")
 ```
 
+After installation, to be able to use the deSolve package, we need to load it:
 
+```python
+library(deSolve)# This makes it possible to use the "ode" function
+```
+
+# - Step 1: writing the differential equations in R
+
+```python
+sir <- function(time, variables, parameters) {
+  with(as.list(c(variables, parameters)), {
+    dS <- -beta * I * S
+    dI <-  beta * I * S - gamma * I
+    dR <-  gamma * I
+    return(list(c(dS, dI, dR)))
+  })
+}
+```
 
 
 
