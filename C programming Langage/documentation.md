@@ -28,7 +28,7 @@ The #include allow you to add libraries to your program. Libraries are actually 
 
 An other important function in this code is the main() function; this function tells to your compiler, that there is a funtion named main and it returns an integer(tha's why we made int before main()).
 
-
+Finally, at the end of the program, we return a value from main to the operating system by using the return statement. This return value is important as it can be used to tell the operating system whether our program succeeded or not. It means that, the program returns 0 and stop.
 
 
 
