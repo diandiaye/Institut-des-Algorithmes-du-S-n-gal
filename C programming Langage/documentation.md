@@ -15,9 +15,13 @@ Every correct C program must include a function main in it's beginig. A function
 To access the standard functions of C, you need to include a header with the #include directive. 
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+#include <stdio.h>
+int main()
+{
+    printf( "I am alive!  Beware.\n" );
+    getchar();
+    return 0;
+}
 ```
 
 
