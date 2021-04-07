@@ -24,6 +24,9 @@ int main()
 }
 ```
 
+The #include allow you to add libraries to your program. Libraries are actually files with lots of ready-made functions inside. For example the printf() function, the getchar() function...
+
+An other important function in this code is the main() function; this function tells to your compiler, that there is a funtion named main and it returns an integer(tha's why we made int before main()).
 
 
 
