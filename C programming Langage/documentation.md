@@ -55,36 +55,19 @@ An other important function in this code is the main() function; this function t
 
 Finally, at the end of the program, we return a value from main to the operating system by using the return statement. This return value is important as it can be used to tell the operating system whether our program succeeded or not. It means that, the program returns 0 and stop.
 
+## Declaring and using variables 
+
+So far you should be able to write a simple program to display information typed in by you, the programmer and to describe your program with comments. That's great, but what about interacting with your user? Fortunately, it is also possible for your program to accept input.
+
+But first, before you try to receive input, you must have a place to store that input. In programming, input and data are stored in variables. There are several different types of variables; when you tell the compiler you are declaring a variable, you must include the data type along with the name of the variable. Several basic types include char, int, and float. Each type can store different types of data.
+
+
+```ruby
+int x;
+int a, b, c, d;
+char letter;
+float the_float;
+```
 
 
 
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
-
-## Features
-
-- Case 1 : Clone a git repository
-- Case 2: 
-- Case 3: Remove an existing file in your repository
-- Case 4: Get the remote changes onto your local machine while you are working on some other branch.
-- Case 5: Bring back a colleague’s file you messed up, back to its original form.
-
-
-
-> Case 1 : Someone or your company started a new project and want you contributing to it. 
-Once you become a collaborator in that project, you need to get the source code in order to start working. So what you have to do is go to the Git bash or Mac terminal, do :
-```sh 
-cd "name of folder"
-```  
-where "name of folder" is the name of the folder where you want to download the code. 
-And the do :
-```sh 
-git clone https://github.com/V-Sher/medium_demo.git
-```  
