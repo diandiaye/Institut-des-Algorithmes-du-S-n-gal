@@ -1,5 +1,7 @@
 ############## mackdown online  https://dillinger.io/
 
+link : https://towardsdatascience.com/git-commands-data-scientists-use-on-a-day-to-day-basis-40d588cd63f7
+
 # Institut des Algorithmes du Sénégal
 ## _Some Github basic comand that you need to do data science_
 
