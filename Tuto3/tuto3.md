@@ -1,3 +1,5 @@
+https://towardsdatascience.com/a-hands-on-demo-of-sql-vs-nosql-databases-in-python-eeb955bba4aa
+
 
 ```bash
 from sqlalchemy import create_engine, Column, String, Integer, ForeignKey
