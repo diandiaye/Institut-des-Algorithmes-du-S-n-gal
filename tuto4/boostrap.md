@@ -1,1 +1,1 @@
-L'ICB de niveau 1−α qui repose sur une approximation par la loi normale est donné par $I∗norm=\[t−β∗B−v∗B−−√z1−α/2,t−β∗B−v∗B−−√zα/2\]$, où $zα/2$ et $z1−α/2$ désignent les quantiles de la loi normale standard N(0,1) et β∗B et v∗B sont les estimateurs bootstrap du biais et de la variance de l'estimateur T définis par β∗B=T¯∗−t,v∗B=1B∑b=1B(T∗(b)−T¯∗)2, où T¯∗=1B∑b=1BT∗(b), et T∗(b),b=1,…,B sont B répliques bootstrap (paramétrique ou non paramétrique) de T.
+\mathcal I^*_{\text{norm}} = \left[t-\beta_B^*-\sqrt{v^*_B}z_{1-\alpha/2},t-\beta_B^*-\sqrt{v^*_B}z_{\alpha/2} \right],
