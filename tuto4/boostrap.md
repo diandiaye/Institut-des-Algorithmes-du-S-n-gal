@@ -1,1 +1,1 @@
-\mathcal I^*_{\text{norm}} = \left[t-\beta_B^*-\sqrt{v^*_B}z_{1-\alpha/2},t-\beta_B^*-\sqrt{v^*_B}z_{\alpha/2} \right],
+https://latexbase.com/d/e1c2c883-0ded-4772-b2ea-f7365ed3d3d6
