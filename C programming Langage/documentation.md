@@ -14,6 +14,7 @@ If you haven't yet done so, go ahead and get a compiler set up--you'll need it f
 Every correct C program must include a function main in it's beginig. A function is a combination of different commands that do something.
 To access the standard functions of C, you need to include a header with the #include directive. 
 
+# 1. Affichage
 ```ruby
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +24,39 @@ int main()
     return 0;
 }
 ```
+
+```ruby
+# 2. Using variables in C
+
+Nos programmes, vous allez le voir, sont remplis de variables.
+
+En langage C, une variable est constituée de deux choses : 
+
+- une valeur : c'est le nombre qu'elle stocke, par exemple 5 ;
+
+- un nom : c'est ce qui permet de la reconnaître. En programmant en C, on n'aura pas à retenir l'adresse mémoire (ouf !) : à la place, on va juste indiquer des noms de variables. C'est le compilateur qui fera la conversion entre le nom et l'adresse. Voilà déjà un souci de moins.
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int x;
+int a, b, c, d;
+char letter;
+float the_float;
+
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 ```ruby
 /*
