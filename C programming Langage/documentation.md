@@ -20,7 +20,7 @@ To access the standard functions of C, you need to include a header with the #in
 ```ruby
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+int main() //Cette ligne dit au compilateur qu'il y a une fonction appelée main() et que cette fonction doit retourner un integer
 {
     printf("bienvenue dans le cours d'introduction à la programmation avec c\n");
     return 0;
