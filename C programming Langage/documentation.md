@@ -7,7 +7,7 @@
 The very first thing you need to do, before starting out in C, is to make sure that you have a compiler. The question that can be asked is what is a compiler ?
 A compiler turns the program that you write into an executable that your computer can actually understand and run. If you're taking a course, you probably have one provided through your school.
 
-If you haven't yet done so, go ahead and get a compiler set up--you'll need it for the rest of the tutorial. If you're on Windows, your best bet is to use Code::Blocks with MinGW. If you're on Linux, you can use gcc, and if you're on Mac OS X, you can use XCode.
+If you haven't yet done so, go ahead and get a compiler set up--you'll need it for the rest of the tutorial. If you're on Windows, your best bet is to use Code::Blocks with MinGW. If you're on Linux, you can use gcc, and if you're on Mac OS X, you can use XCode. https://www.cprogramming.com/code_blocks/
 
 # Introduction to C programming Langage
 
