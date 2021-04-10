@@ -49,11 +49,11 @@ L'essentiel est que quoi que vous fassiez, faites en sorte de donner des noms cl
 
 Les déclarations de variables peuvent se trouver :
 
-    - en dehors de toute fonction, il s'agit alors de variables globales ;
-    - à l'intérieur d'un bloc, il s'agit alors de variables locales ;
-    - dans l'en-tête d'une fonction, il s'agit alors d'arguments formels, placés
-        - soit dans les parenthèses de l'en-tête (fonction définie en syntaxe ANSI avec un prototype),
-        - soit entre le nom de la fonction et le f initial (fonction définie en syntaxe originale ou sans prototype).
+- en dehors de toute fonction, il s'agit alors de variables globales ;
+- à l'intérieur d'un bloc, il s'agit alors de variables locales ;
+- dans l'en-tête d'une fonction, il s'agit alors d'arguments formels, placés
+- soit dans les parenthèses de l'en-tête (fonction définie en syntaxe ANSI avec un prototype),
+- soit entre le nom de la fonction et le f initial (fonction définie en syntaxe originale ou sans prototype).
 
 
 
