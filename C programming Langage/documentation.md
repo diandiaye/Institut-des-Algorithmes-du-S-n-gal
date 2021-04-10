@@ -25,7 +25,7 @@ int main()
 }
 ```
 
-```ruby
+
 # 2. Using variables in C
 
 Nos programmes, vous allez le voir, sont remplis de variables.
@@ -35,7 +35,8 @@ En langage C, une variable est constituée de deux choses :
 - une valeur : c'est le nombre qu'elle stocke, par exemple 5 ;
 
 - un nom : c'est ce qui permet de la reconnaître. En programmant en C, on n'aura pas à retenir l'adresse mémoire (ouf !) : à la place, on va juste indiquer des noms de variables. C'est le compilateur qui fera la conversion entre le nom et l'adresse. Voilà déjà un souci de moins.
-
+- 
+```ruby
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
