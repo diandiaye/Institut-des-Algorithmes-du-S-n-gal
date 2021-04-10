@@ -45,6 +45,18 @@ Chaque programmeur a sa propre façon de nommer des variables. Pendant ce cours,
 
 L'essentiel est que quoi que vous fassiez, faites en sorte de donner des noms clairs à vos variables.
 
+# déclaration d'une variables
+
+Les déclarations de variables peuvent se trouver :
+
+    - en dehors de toute fonction, il s'agit alors de variables globales ;
+    - à l'intérieur d'un bloc, il s'agit alors de variables locales ;
+    - dans l'en-tête d'une fonction, il s'agit alors d'arguments formels, placés
+        - soit dans les parenthèses de l'en-tête (fonction définie en syntaxe ANSI avec un prototype),
+        - soit entre le nom de la fonction et le f initial (fonction définie en syntaxe originale ou sans prototype).
+
+
+
 ```ruby
 #include <stdio.h>
 #include <stdlib.h>
@@ -57,8 +69,19 @@ float the_float;
 }
 ```
 
-
-
+# Reading input
+```ruby
+int main()
+{
+    int this_is_a_number;
+ 
+    printf( "Please enter a number: " );
+    scanf( "%d", &this_is_a_number );
+    printf( "You entered %d", this_is_a_number );
+    getchar();
+    return 0;
+}
+```
 
 
 
