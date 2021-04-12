@@ -156,6 +156,7 @@ printf("La valeur de lopperation est %d\n",inc);
 # Les structures de controle
 // Les if/else
 
+```ruby
 int main(){
 
   int age;
@@ -172,9 +173,10 @@ int main(){
   }
   return 0;
 }
-
+```
 # La boucle for
 
+```ruby
 int main(){
 
 int i;
@@ -194,3 +196,4 @@ for(i = 0; i<j; i++){
 }
  return 0;
 }
+```
