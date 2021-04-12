@@ -119,19 +119,7 @@ Finally, at the end of the program, we return a value from main to the operating
 
 ## Arithmetic operations
 
-So far you should be able to write a simple program to display information typed in by you, the programmer and to describe your program with comments. That's great, but what about interacting with your user? Fortunately, it is also possible for your program to accept input.
-
-But first, before you try to receive input, you must have a place to store that input. In programming, input and data are stored in variables. There are several different types of variables; when you tell the compiler you are declaring a variable, you must include the data type along with the name of the variable. Several basic types include char, int, and float. Each type can store different types of data.
-
-
-```ruby
-int x;
-int a, b, c, d;
-char letter;
-float the_float;
 ```
-
-# Reading input
 
 #include <stdio.h>
  
@@ -164,3 +152,45 @@ printf("La valeur de lopperation est %d\n",inc);
 }
 ```
 
+
+# Les structures de controle
+// Les if/else
+
+int main(){
+
+  int age;
+  printf("S'il vous plait veillez saisir votre age :");
+  scanf("%d", &age);
+  printf("Vous avez comme age %d\n",age);
+  if(age < 30){
+        printf("vous etes jeune !\n ");
+
+  }
+  else{
+        printf("Vous etes age !\n");
+
+  }
+  return 0;
+}
+
+# La boucle for
+
+int main(){
+
+int i;
+int j = 10;
+int op = 1;
+int res;
+for(i = 0; i<j; i++){
+        res = i + op;
+       if(res <5){
+            printf("Bingo !!!");
+        }
+       else{
+        printf("Les valeurs desirees sont %d\n",res);
+
+       }
+
+}
+ return 0;
+}
