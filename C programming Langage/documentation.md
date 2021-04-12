@@ -39,34 +39,33 @@ int main() //Cette ligne dit au compilateur qu'il y a une fonction appelée main
 
 # 2. Using variables in C
 
-Nos programmes, vous allez le voir, sont remplis de variables.
+Our programs, as you will see, are full of variables.
 
-En langage C, une variable est constituée de deux choses : 
-
-- une valeur : c'est le nombre qu'elle stocke, par exemple 5 ;
-
-- un nom : c'est ce qui permet de la reconnaître. En programmant en C, on n'aura pas à retenir l'adresse mémoire (ouf !) : à la place, on va juste indiquer des noms de variables. C'est le compilateur qui fera la conversion entre le nom et l'adresse. Voilà déjà un souci de moins.
+In C language, a variable is made of two things:
 
 
-Chaque programmeur a sa propre façon de nommer des variables. Pendant ce cours, je vais vous montrer ma manière de faire :
+- a value: this is the number it stores, for example 5 ;
 
--     je commence tous mes noms de variables par une lettre minuscule ;
-
-- s'il y a plusieurs mots dans mon nom de variable, je mets une lettre majuscule au début de chaque nouveau mot.
-
-L'essentiel est que quoi que vous fassiez, faites en sorte de donner des noms clairs à vos variables.
-
-# déclaration d'une variables
-
-Les déclarations de variables peuvent se trouver :
-
-- en dehors de toute fonction, il s'agit alors de variables globales ;
-- à l'intérieur d'un bloc, il s'agit alors de variables locales ;
-- dans l'en-tête d'une fonction, il s'agit alors d'arguments formels, placés
-- soit dans les parenthèses de l'en-tête (fonction définie en syntaxe ANSI avec un prototype),
-- soit entre le nom de la fonction et le f initial (fonction définie en syntaxe originale ou sans prototype).
+- a name : this is what allows to recognize it. When programming in C, you don't have to remember the memory address (phew!): instead, you just indicate variable names. The compiler will do the conversion between the name and the address. This is already one less problem.
 
 
+Every programmer has his own way of naming variables. During this course I will show you my way of doing things:
+
+- I start all my variable names with a lower case letter ;
+
+- if there are several words in my variable name, I put a capital letter at the beginning of each new word.
+
+The bottom line is that whatever you do, make sure you give your variables clear names.
+
+# declaration of a variable
+
+Variable declarations can be found :
+
+- outside any function, they are global variables;
+- inside a block, they are local variables;
+- in the header of a function, they are then formal arguments, placed
+- either in the parentheses of the header (function defined in ANSI syntax with a prototype),
+- or between the function name and the initial f (function defined in original syntax or without prototype).
 
 ```ruby
 #include <stdio.h>
@@ -103,23 +102,8 @@ int main()
 
 
 ```ruby
-/*
-Ci-dessous, ce sont des directives de préprocesseur.
-Ces lignes permettent d'ajouter des fichiers au projet, 
-fichiers que l'on appelle bibliothèques.
-Grâce à ces bibliothèques, on disposera de fonctions toutes prêtes pour afficher
-par exemple un message à l'écran.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
-
-
-/*
-Ci-dessous, vous avez la fonction principale du programme, appelée main.
-C'est par cette fonction que tous les programmes commencent.
-Ici, ma fonction se contente d'afficher Bonjour à l'écran.
-*/
 
 int main()
 {
