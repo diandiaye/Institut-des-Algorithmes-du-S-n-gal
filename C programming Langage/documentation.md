@@ -117,7 +117,7 @@ An other important function in this code is the main() function; this function t
 
 Finally, at the end of the program, we return a value from main to the operating system by using the return statement. This return value is important as it can be used to tell the operating system whether our program succeeded or not. It means that, the program returns 0 and stop.
 
-## Declaring and using variables 
+## Arithmetic operations
 
 So far you should be able to write a simple program to display information typed in by you, the programmer and to describe your program with comments. That's great, but what about interacting with your user? Fortunately, it is also possible for your program to accept input.
 
@@ -136,15 +136,31 @@ float the_float;
 #include <stdio.h>
  
 ```ruby
-int main()
-{
-    int this_is_a_number;
- 
-    printf( "Please enter a number: " );
-    scanf( "%d", &this_is_a_number );
-    printf( "You entered %d", this_is_a_number );
-    getchar();
-    return 0;
+int main(){
+int a = 5;
+int b = 6;
+int add;
+int sous;
+int div;
+int mult;
+int inc;
+// Addition
+  add = a+b;
+  printf("La somme entre a et b est %d\n",add);
+
+// soustraction
+sous = a-b;
+printf("La différence entre a et b est %d\n",sous);
+
+// multiplication
+mult = a*b;
+printf("La valeur du produit entre a et b est %d\n",mult);
+
+// incrémenter un entier
+
+inc = a++;
+printf("La valeur de lopperation est %d\n",inc);
+
 }
 ```
 
