@@ -7,13 +7,13 @@
 The very first thing you need to do, before starting out in C, is to make sure that you have a compiler. The question that can be asked is what is a compiler ?
 A compiler turns the program that you write into an executable that your computer can actually understand and run. If you're taking a course, you probably have one provided through your school.
 
-La première des choss dont vous aurez besoin pour programmer en C est un compilateur. Un compilteur permet de traduire votre code en un langage de plus bas niveau permettant à l'ordinateur de le comprendre et de le faire tourner.
+The first choss you will need to program in C is a compiler. A compiler translates your code into a lower level language that the computer can understand and run. 
 
-Differents types de compilateurs en C :
+Different types of C compilers:
 
 -Xcode
 
-- gcc
+-gcc
 
 Code Block : https://www.cprogramming.com/code_blocks/
  
