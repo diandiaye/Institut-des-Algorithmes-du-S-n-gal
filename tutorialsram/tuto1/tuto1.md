@@ -35,7 +35,7 @@ t.size                        # affiche les dimensions de la matrice
 (1, 3)
 ```
 
-La documentation cvxopt est parfois peu explicite. Il ne faut pas hésiter à regarder les exemples d’abord et à la lire avec attention les lignes qui décrivent les valeurs que doivent prendre chaque paramètre de la fonction. Le plus intéressant pour le cas qui nous intéresse est celui-ci (tiré de la page problems with nonlinear objectives) :
+Touvez une documentation compléte de cvxopt ici http://cvxopt.org/documentation/. Il ne faut pas hésiter à regarder les exemples d’abord et à la lire avec attention les lignes qui décrivent les valeurs que doivent prendre chaque paramètre de la fonction. 
 
 ```ruby
 from cvxopt import solvers, matrix, spdiag, log
