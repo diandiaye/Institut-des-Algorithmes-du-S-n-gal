@@ -42,6 +42,10 @@ L’algorithme qui nous permet de résoudre notre probléme d'optimisation est i
 on part d’une point x_0 et on le déplace dans les directions opposées aux gradients de la fonction objective( à minimiser) et des contraintes jusqu’à ce que le point x_t n’évolue plus. C’est pourquoi il faut partir d'une étape d'initialisation. L’algorithme d’optimisation a besoin d’un premier point x_0 dans le domaine de défintion de la fonction f.
 
 avec  ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f={x^2+y^2-xy+y}) 
+
+Ci-dessous l'algorithme de résolution ainsi que les solutions optimales 
+
+
 ```ruby
 from cvxopt import solvers, matrix
 import random
