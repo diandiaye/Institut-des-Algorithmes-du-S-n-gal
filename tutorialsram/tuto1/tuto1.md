@@ -6,7 +6,7 @@
 
 L’optimisation sous contrainte est un problème que nous rencontrons dans beaucoup de domaines de la vie réelle. Dans ce premier tutoriel, nous allons résoudre un probléme d'optimisation en utilisant 
 
-- La librarielibrairie cvxopt
+- La librarie cvxopt
 
 Nous avons aussi la possibilité d'utiliser d'autres algorithmes et de comparrer les résultats obtenus avec les deux approches.
 
