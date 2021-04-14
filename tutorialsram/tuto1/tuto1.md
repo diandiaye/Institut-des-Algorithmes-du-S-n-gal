@@ -37,46 +37,37 @@ t.size                        # affiche les dimensions de la matrice
 Touvez une documentation compléte de cvxopt ici http://cvxopt.org/documentation/. Il ne faut pas hésiter à regarder les exemples d’abord et à la lire avec attention les lignes qui décrivent les valeurs que doivent prendre chaque paramètre de la fonction. 
 
 ```ruby
-from cvxopt import solvers, matrix, spdiag, log
+from cvxopt import solvers, matrix
+import random
 
-def acent(A, b):
-    m, n = A.size
-    def F(x=None, z=None):
-        if x is None:
-            # l'algorithme fonctionne de manière itérative
-            # il faut choisir un x initial, c'est ce qu'on fait ici
-            return 0, matrix(1.0, (n,1))
-        if min(x) <= 0.0:
-            return None   # cas impossible
+def fonction(x=None,z=None) :
+    if x is None :
+        x0 = matrix ( [[ random.random(), random.random() ]])
+        return 0,x0
+    f = x[0]**2 + x[1]**2 - x[0]*x[1] + x[1]
+    d = matrix ( [ x[0]*2 - x[1], x[1]*2 - x[0] + 1 ] ).T
+    if z is None:
+        return f, d
+    else :
+        h = z[0] * matrix ( [ [ 2.0, -1.0], [-1.0, 2.0] ])
+        return f, d, h
 
-        # ici commence le code qui définit ce qu'est une itération
-        f = -sum(log(x))
-        Df = -(x**-1).T
-        if z is None: return f, Df
-        H = spdiag(z[0] * x**(-2))
-        return f, Df, H
+A = matrix([ [ 1.0, 2.0 ] ]).trans()
+b = matrix ( [[ 1.0] ] )
 
-    return solvers.cp(F, A=A, b=b)['x']
-
-A = matrix ( [[1.0,2.0]] ).T
-b = matrix ( [[ 1.0 ]] )
-print(acent(A,b))
+sol = solvers.cp ( fonction, A = A, b = b)
+print (sol)
+print ("solution:",sol['x'].T)
 ```
 ```ruby
-    pcost       dcost       gap    pres   dres
- 0:  0.0000e+00  0.0000e+00  1e+00  1e+00  1e+00
- 1:  9.9000e-01  4.6251e+00  1e-02  2e+00  7e+01
- 2:  3.6389e+00  3.9677e+00  1e-04  1e-01  3e+01
- 3:  3.0555e+00  3.3406e+00  1e-06  1e-01  2e+01
- 4:  2.5112e+00  2.7758e+00  1e-08  1e-01  8e+00
- 5:  2.1118e+00  2.3358e+00  1e-10  1e-01  4e+00
- 6:  1.9684e+00  2.1118e+00  1e-12  6e-02  1e+00
- 7:  2.0493e+00  2.0796e+00  1e-14  1e-02  1e-01
- 8:  2.0790e+00  2.0794e+00  1e-16  2e-04  2e-03
- 9:  2.0794e+00  2.0794e+00  1e-18  2e-06  2e-05
-10:  2.0794e+00  2.0794e+00  1e-20  2e-08  2e-07
-11:  2.0794e+00  2.0794e+00  1e-22  2e-10  2e-09
+     pcost       dcost       gap    pres   dres
+ 0:  0.0000e+00  4.3222e-01  1e+00  1e+00  1e+00
+ 1:  2.6022e-01  4.2857e-01  1e-02  1e-01  1e-02
+ 2:  4.2687e-01  4.2857e-01  1e-04  1e-03  1e-04
+ 3:  4.2855e-01  4.2857e-01  1e-06  1e-05  1e-06
+ 4:  4.2857e-01  4.2857e-01  1e-08  1e-07  1e-08
+ 5:  4.2857e-01  4.2857e-01  1e-10  1e-09  1e-10
 Optimal solution found.
-[ 5.00e-01]
-[ 2.50e-01]
+{'dual objective': 0.42857142857142855, 'primal objective': 0.4285714268720223, 'primal slack': 1.000000000000004e-10, 'snl': <0x1 matrix, tc='d'>, 'relative gap': 2.333333333333341e-10, 'sl': <0x1 matrix, tc='d'>, 'dual slack': 0.9999999999999991, 'status': 'optimal', 'y': <1x1 matrix, tc='d'>, 'x': <2x1 matrix, tc='d'>, 'zl': <0x1 matrix, tc='d'>, 'znl': <0x1 matrix, tc='d'>, 'dual infeasibility': 9.995026102717158e-11, 'gap': 1.0000000000000031e-10, 'primal infeasibility': 1.2214984990086318e-09}
+solution: [ 4.29e-01  2.86e-01]
 ```
