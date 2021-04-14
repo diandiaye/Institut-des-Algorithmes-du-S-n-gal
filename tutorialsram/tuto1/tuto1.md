@@ -26,14 +26,14 @@ La librarie cvxopt est un des outils les plus utilisés pour résoudre ce probl�
 Ci-dessous quelques exemples :
 ```ruby
 from cvxopt import solvers, matrix
-m = matrix( [ [2.0, 1.1] ] )  # mettre des réels (float) et non des entiers
+m = matrix( [ [3.0, 1.1] ] )  # mettre des réels (float) et non des entiers
                               # cvxopt ne fait pas de conversion implicite
 t = m.T                       # la transposée
 t.size                        # affiche les dimensions de la matrice
 
 ```
 ```ruby
-(1, 2)
+(1, 3)
 ```
 
 La documentation cvxopt est parfois peu explicite. Il ne faut pas hésiter à regarder les exemples d’abord et à la lire avec attention les lignes qui décrivent les valeurs que doivent prendre chaque paramètre de la fonction. Le plus intéressant pour le cas qui nous intéresse est celui-ci (tiré de la page problems with nonlinear objectives) :
