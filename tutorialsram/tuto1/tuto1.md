@@ -11,8 +11,7 @@ L’optimisation sous contrainte est un problème que nous rencontrons dans beau
 
 Puis comparrer les résultats obtenus avec les deux approches
 
-Le langage Python inclut des modules qui permettent de résoudre des problèmes d’optimisation sous contraintes et il n’est pas forcément nécessaire de connaître la théorie derrière les algorithmes de résolution pour s’en servir. Au cours de cette séance, on verra comment faire. Même si comprendre comment utiliser une fonction d’un module tel que cvxopt requiert parfois un peu de temps et de lecture.
-
+Le langage Python inclut des modules qui permettent de résoudre des problèmes d’optimisation sous contraintes et il n’est pas forcément nécessaire de connaître la théorie derrière les algorithmes de résolution pour s’en servir.
 
 ## Optimisation avec cvxopt
 
