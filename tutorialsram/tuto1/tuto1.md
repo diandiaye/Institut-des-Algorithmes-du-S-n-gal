@@ -4,14 +4,13 @@
 
 
 
-L’optimisation sous contrainte est un problème que nous rencontrons dans beaucoup de domaines de la vie réelle. Dans ce premier tutoriel, nous allons résoudre un probléme d'optimisation avec deux approches :  
+L’optimisation sous contrainte est un problème que nous rencontrons dans beaucoup de domaines de la vie réelle. Dans ce premier tutoriel, nous allons résoudre un probléme d'optimisation en utilisant 
 
-- Avec une librairie externe
-- Avec l’algorithme Arrow-Hurwicz qu’il faudra implémenter. 
+- La librarielibrairie cvxopt
 
-Puis comparrer les résultats obtenus avec les deux approches
+Nous avons aussi la possibilité d'utiliser d'autres algorithmes et de comparrer les résultats obtenus avec les deux approches.
 
-Le langage Python inclut des modules qui permettent de résoudre des problèmes d’optimisation sous contraintes et il n’est pas forcément nécessaire de connaître la théorie derrière les algorithmes de résolution pour s’en servir.
+Le langage Python inclut des modules(solvers) qui permettent de résoudre des problèmes d’optimisation sous contraintes et il n’est pas forcément nécessaire de connaître la théorie derrière les algorithmes de résolution pour s’en servir.
 
 ## Optimisation avec cvxopt
 
