@@ -36,6 +36,12 @@ t.size                        # affiche les dimensions de la matrice
 
 Touvez une documentation compléte de cvxopt ici http://cvxopt.org/documentation/. Il ne faut pas hésiter à regarder les exemples d’abord et à la lire avec attention les lignes qui décrivent les valeurs que doivent prendre chaque paramètre de la fonction. 
 
+
+L’algorithme qui nous permet de résoudre notre probléme d'optimisation est itératif : 
+
+on part d’une point x_0 et on le déplace dans les directions opposées aux gradients de la fonction objective( à minimiser) et des contraintes jusqu’à ce que le point x_t n’évolue plus. C’est pourquoi il faut partir d'une étape d'initialisation. L’algorithme d’optimisation a besoin d’un premier point x_0 dans le domaine de défintion de la fonction f.
+
+avec f = ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;{x^2+y^2-xy+y}) 
 ```ruby
 from cvxopt import solvers, matrix
 import random
