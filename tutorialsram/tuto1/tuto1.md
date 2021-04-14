@@ -1,5 +1,5 @@
 
-# Dillinger
+# Institut des Algorithmes du Sénégal
 ## _Optimisation sous contrainte_
 
 
@@ -57,5 +57,4 @@ def acent(A, b):
 A = matrix ( [[1.0,2.0]] ).T
 b = matrix ( [[ 1.0 ]] )
 print(acent(A,b))
-}
 ```
