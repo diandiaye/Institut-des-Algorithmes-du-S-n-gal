@@ -18,7 +18,7 @@ Résolution du probléme d'optimisation
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;min_{xy}(\sum()) 
 
-$$\sum_{i=1}^n X_i$$
+sum_{i=1}^n X_i
 
 sous la contrainte x+2y=1
 
