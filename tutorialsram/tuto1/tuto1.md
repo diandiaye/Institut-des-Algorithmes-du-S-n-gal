@@ -16,7 +16,7 @@ Le langage Python inclut des modules(solvers) qui permettent de résoudre des pr
 
 Résolution du probléme d'optimisation
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;min_{xy}(\sum_{n=1}^{\infty} 2^{-n} = 1)) 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;min_{xy}($\sum_{j=1}^k A_{\alpha_j}$)) 
 
 sous la contrainte x+2y=1
 
