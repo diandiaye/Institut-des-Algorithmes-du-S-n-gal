@@ -4,7 +4,7 @@
 
 
 
-L’optimisation sous contrainte est un problème que nous rencontrons dans beaucoup de domaines de la vie réelle. Dans ce premier tutoriel, nous utiliserons allo,ns résoudre un probléme d'optimisation avec deux approches :  
+L’optimisation sous contrainte est un problème que nous rencontrons dans beaucoup de domaines de la vie réelle. Dans ce premier tutoriel, nous allons résoudre un probléme d'optimisation avec deux approches :  
 
 - Avec une librairie externe
 - Avec l’algorithme Arrow-Hurwicz qu’il faudra implémenter. 
