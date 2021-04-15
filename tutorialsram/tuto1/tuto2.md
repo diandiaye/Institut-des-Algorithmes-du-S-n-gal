@@ -56,3 +56,19 @@ Le modèle de regression linéaire consiste à prédire les valeurs de y par une
  
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{i=1}^n\left|y_{data}[i]-a_0-a_1x_{data}[i]\right|^2)
+
+```ruby
+
+# On crée un objet scikit-learn pour la régression linéaire:
+lr = lm.LinearRegression()
+# lorsqu'on crée un objet scikit-learn, on dispose de méthodes et attributs 
+# voir les détails dans la documentation de LinearRegression: on ne se servira que de quelques uns d'entre eux
+
+# On estime les paramètres a_0 et a_1: 
+# (remarque: sklearn attend des données sous forme de vecteurs colonnes)
+lr.fit(X_data, Y_data)  
+# de manière générale, la méthode fit permet l'apprentissage des paramètres du modèle 
+# (ici par la méthodes des moindres carrés), qui sont stockés ici dans les attributs suivants:
+print(lr.intercept_)  
+print(lr.coef_)
+```
