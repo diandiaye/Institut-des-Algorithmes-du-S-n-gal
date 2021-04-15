@@ -7,6 +7,8 @@
 j vaie entre 1 et n
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(x)=f(x;c_0,c_1,c_2,\ldots,c_d))
 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_0+c_1x+c_2x^2+\ldots+c_dx^d)
+
 
 ## Les méthodes de regression
 
