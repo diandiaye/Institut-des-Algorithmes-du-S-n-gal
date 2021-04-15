@@ -22,7 +22,7 @@ nous introduisons à présent la notion de régularisation qui interviendra à p
 
 L'objectif de cette première partie est de prédire la distance d'arrêt d'un véhicule en fonction de sa vitesse, en utilisant des données.
 
-vous trouveraient sur ce lien les données, vous pouvez les télécharger et nommez-le ficher "vitesse_freinage.csv".
+vous trouveraient sur ce lien https://github.com/diandiaye/Institut-des-Algorithmes-du-S-n-gal/blob/main/tutorialsram/tuto1/cars.csv les données, vous pouvez les télécharger et nommez-le ficher "vitesse_freinage.csv".
 
 Dans le code ci-dessous, on charge les données que nous allons utiliser pour faire la prédiction.
 
