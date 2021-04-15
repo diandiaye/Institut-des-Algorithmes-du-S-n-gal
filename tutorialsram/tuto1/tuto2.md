@@ -51,6 +51,8 @@ Le modèle de regression linéaire consiste à prédire les valeurs de y par une
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_{pred}=c_0+c_1x)
 
- Les valeurs de $$c_0$$ et $$c_1$$ sont estimées par la méthode des moindres carrés: on cherche les paramètres a0 et a1 qui minimisent la fonction
+ Les valeurs de c_0 et c_1 sont estimées par la méthode des moindres carrés: on cherche les paramètres a0 et a1 qui minimisent la fonction
  
- \sum_{i=1}^n \left|y_{data}[i] - a_0 - a_1 x_{data}[i]\right|^2
+ 
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{i=1}^n \left|y_{data}[i] - a_0 - a_1 x_{data}[i]\right|^2)
