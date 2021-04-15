@@ -2,13 +2,6 @@
 # Institut des Algorithmes du Sénégal
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad)
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(x)=f(x;c_0,c_1,c_2,\ldots,c_d))
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;=c_0+c_1x+c_2x^2+\ldots+c_dx^d)
-
-
 
 ## Les méthodes de regression
 
@@ -102,3 +95,12 @@ plt.title('observations et régression linéaire')
 plt.legend(["observations","droite de régression"]);
 ```
 
+
+
+
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad)
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(x)=f(x;c_0,c_1,c_2,\ldots,c_d))
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;=c_0+c_1x+c_2x^2+\ldots+c_dx^d)
