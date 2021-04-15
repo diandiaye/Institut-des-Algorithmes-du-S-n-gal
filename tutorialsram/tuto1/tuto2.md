@@ -59,7 +59,9 @@ Le modèle de regression linéaire consiste à prédire les valeurs de y par une
 # Calcul des valeurs de 
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_0 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_0)
+
+et 
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_1)
 
