@@ -59,7 +59,7 @@ Le modèle de regression linéaire consiste à prédire les valeurs de y par une
 # Calcul des valeurs de 
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_0$et$c_1)
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;c_0etc_1)
 ```ruby
 
 # On crée un objet scikit-learn pour la régression linéaire:
