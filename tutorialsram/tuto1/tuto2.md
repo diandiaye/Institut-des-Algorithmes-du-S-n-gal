@@ -4,7 +4,7 @@
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad)
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\quad1\leq j\leq n)
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\quad1\leqj\leq n)
 
 
 ## Les méthodes de regression
