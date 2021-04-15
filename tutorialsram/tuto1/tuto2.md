@@ -5,11 +5,11 @@
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad)
 
 j vaie entre 1 et n
-
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;
 \begin{aligned}
 f(x) &= f(x ; c_0, c_1, c_2, \ldots, c_d) \\
 &= c_0 + c_1 x + c_2 x^2 + \ldots + c_d x^d
-\end{aligned}
+\end{aligned})
 
 
 ## Les méthodes de regression
