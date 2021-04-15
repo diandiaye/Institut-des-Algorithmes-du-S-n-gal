@@ -16,7 +16,7 @@ nous introduisons à présent la notion de régularisation qui interviendra à p
 - Régression avec une pénalisation de ridge
 - Regression linéaire avec une pénalisation de Lasso
 - 
-# Regression linéaire simple
+# 1. ression linéaire simple
 
 -Les données : distance de freinage en fonction de la vitesse d'un véhicule
 
@@ -57,6 +57,7 @@ Le modèle de regression linéaire consiste à prédire les valeurs de y par une
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{i=1}^n\left|y_{data}[i]-a_0-a_1x_{data}[i]\right|^2)
 
+# Calcul des valeurs de c_0 et c_1 :
 ```ruby
 
 # On crée un objet scikit-learn pour la régression linéaire:
@@ -64,7 +65,7 @@ lr = lm.LinearRegression()
 # lorsqu'on crée un objet scikit-learn, on dispose de méthodes et attributs 
 # voir les détails dans la documentation de LinearRegression: on ne se servira que de quelques uns d'entre eux
 
-# On estime les paramètres a_0 et a_1: 
+# On estime les paramètres c0 et c1: 
 # (remarque: sklearn attend des données sous forme de vecteurs colonnes)
 lr.fit(X_data, Y_data)  
 # de manière générale, la méthode fit permet l'apprentissage des paramètres du modèle 
@@ -72,3 +73,25 @@ lr.fit(X_data, Y_data)
 print(lr.intercept_)  
 print(lr.coef_)
 ```
+
+# La cellule suivante représente graphiquement la prédiction par régression linéaire.
+
+```ruby
+# On "prédit" les valeurs de y pour 30 valeurs de x comprises entre 0 et 15
+X = np.linspace(0,15,num=30).reshape(30,1)
+Y_pred_lr = lr.predict(X)  
+# la méthode predict permet de prédire les valeurs y pour les valeurs de x passées en argument
+# (à l'aide du modèle lr)
+
+plt.figure(figsize=(10,6))
+plt.plot(X_data, Y_data,'o')
+plt.plot(X, Y_pred_lr, '-g')
+plt.xlim(0, 15)
+plt.ylim(-10, 100)
+plt.xlabel("X: vitesse (km/h)")
+plt.ylabel("Y: distance d'arrêt (m)")
+plt.grid()
+plt.title('observations et régression linéaire')
+plt.legend(["observations","droite de régression"]);
+```
+
