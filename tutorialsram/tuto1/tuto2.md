@@ -1,7 +1,5 @@
 
 # Institut des Algorithmes du Sénégal
-## _The Last Markdown Editor, Ever_
-
 
 ## Les méthodes de regression
 
