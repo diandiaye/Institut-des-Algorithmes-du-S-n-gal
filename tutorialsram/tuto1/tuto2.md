@@ -2,7 +2,6 @@
 # Institut des Algorithmes du Sénégal
 ## _The Last Markdown Editor, Ever_
 
-$$y_{pred} = a_0 + a_1 x$$
 
 ## Les méthodes de regression
 
