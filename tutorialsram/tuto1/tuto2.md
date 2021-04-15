@@ -48,7 +48,7 @@ plt.ylim(0, 100);  # le ; permet d'éviter un affichage intempestif dans le carn
 Nous allons à présent développer un modèle de regression permettant de prédire les valeurs y correspondant à des valeurs de x entre 0 et 150 km/h.
 
 Le modèle de regression linéaire consiste à prédire les valeurs de y par une fonction affine de x:
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_{pred} = c_0 + c_1 x) 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_{pred}=c_0+c_1x)
  
  Les valeurs de $$c_0$$ et $$c_1$$ sont estimées par la méthode des moindres carrés: on cherche les paramètres a0 et a1 qui minimisent la fonction
  
