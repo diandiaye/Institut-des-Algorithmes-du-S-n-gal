@@ -2,7 +2,7 @@
 # Institut des Algorithmes du Sénégal
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad;\quad 1\leq j\leq n)
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;y_j=f(x_j)+e_j\quad)
 
 ## Les méthodes de regression
 
