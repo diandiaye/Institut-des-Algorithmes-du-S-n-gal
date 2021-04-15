@@ -25,7 +25,7 @@ Dans le code ci-dessous, on charge les données que nous allons utiliser pour fa
 
 ```ruby
 import pandas as pd
-data =   pd.read_csv("vitesse_freinage.csv") # On charge les données précédement sauvegardées
+data =   pd.read_csv("cars.csv") # On charge les données précédement sauvegardées
 
 print(data)## Afficher les données
 
