@@ -54,3 +54,8 @@ est la variable de décision, elle vaut 1 si l'objet i est choisit, 0 sinon.
 La valeur et le poids de l’objet i sont représentées respectivement par 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;p_i) et ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;v_i)
 
+# Fonction objectif
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;F=\sum_{\substack{i=1..10}}x_iv_i)
+
+
