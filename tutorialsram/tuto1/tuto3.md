@@ -35,7 +35,7 @@ On veut pouvoir avoir une valeur maximale dans le sac à dos. La valeur dans le 
 
 | Objet | Cout | Poids |
 | ------------------ | ------------------ | ------------------ |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+| 1 | 2 | 3 |
+| 2 | 2 | 3 |
+| 3 | 3 | 3 |
 
