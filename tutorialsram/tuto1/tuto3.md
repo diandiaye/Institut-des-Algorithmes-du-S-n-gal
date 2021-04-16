@@ -61,4 +61,9 @@ La valeur et le poids de l’objet i sont représentées respectivement par
 
 # Définition des contraintes
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{\substack{i=1..10}}x_ip_i \leq20)
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{\substack{i=1..10}}x_ip_i\leq20)
+
+il faut prendre en compte la contrainte venant de la définition des variables de décision : 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x_i=0)
+ou 1
+
