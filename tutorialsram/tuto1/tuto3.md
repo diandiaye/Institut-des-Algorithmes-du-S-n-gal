@@ -10,16 +10,20 @@ L’optimisation est un probléme qui consiste à trouver le minimum d’une fon
 La résolution d’un problème d’optimisation se fait en plusieurs étapes :
 
 - Énoncé du problème
+- 
 Il s’agit de déterminer la quantité à maximiser ou à minimiser.
 
 - Définition des variables
+- 
 Il faut définir les variables qui interviendront dans les équations (fonction objectif et contraintes). Définir une variable consiste, tout simplement, à indiquer la grandeur du problème qu’elle représente ainsi que les valeurs possibles qu’elle peut prendre.
 
 - Définition de la fonction objectif
+- 
 Écrire la fonction objectif (fonction à minimiser) sous forme d’équation mathématique à l’aide des variables définies à l’étape précédente.
 
 - Définition des contraintes
 Écrire les contraintes du problème sous forme d’équations toujours en utilisant, de façon exclusive, les variables définies plus haut.
 
 - Résoudre le probléme
+- 
 À cette étape nous avons un système d’équations constitué d’une fonction à minimiser (ou maximiser) et de contraintes. Ces deux éléments faisant intervenir les mêmes variables. Il faut, résoudre ce système en y appliquant l’une des nombreuses méthodes qui existent (Algorithme du simplex, Algorithme de points intérieurs, etc). On peut aussi utiliser un outil d’optimisation implémenté dans une bibliothèque Python telle que Scipy et CVXPY.
