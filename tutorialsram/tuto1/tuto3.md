@@ -3,8 +3,11 @@
 ## Programmation Linéaire – Problème Du Sac À Dos_
 
 Probléme de maximisation:
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;F=\sum_{\substack{i=1..10}}x_iv_i)
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;Max{F=\sum_{\substack{i=1..10}}x_iv_i})
+
  sous la contrainte
+ 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{\substack{i=1..10}}x_ip_i\leq20)
 
 
