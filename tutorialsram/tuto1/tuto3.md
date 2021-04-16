@@ -82,7 +82,7 @@ Pour la résolution de problème nous utiliserons la bibliothèque CVXPY qui ser
 
 
 ```ruby
-import cvxpy
+import cvxpy                                 ##  Institut des Algorithmes du Sénégal
 import numpy as np
  
 # Poids limite
