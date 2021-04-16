@@ -59,3 +59,6 @@ La valeur et le poids de l’objet i sont représentées respectivement par
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;F=\sum_{\substack{i=1..10}}x_iv_i)
 
 
+# Définition des contraintes
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{\substack{i=1..10}}x_ip_i \leq20)
