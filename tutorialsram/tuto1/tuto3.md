@@ -33,7 +33,7 @@ Il faut définir les variables qui interviendront dans les équations (fonction 
 On dispose d’un sac à dos qui peut contenir 20 kg et d’un ensemble d’objet ayant chacun un poids et une valeur.
 On veut pouvoir avoir une valeur maximale dans le sac à dos. La valeur dans le sac à dos étant la somme des valeurs de tous les objets qui ont été mis dans le celui-ci.
 
-| Objet | Cout | Poids |
+| Objet                                | Cout                                 | Poids                                |
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
 | 1 | 2 | 5|
 | 2 | 3 | 7|
