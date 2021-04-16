@@ -67,3 +67,38 @@ il faut prendre en compte la contrainte venant de la définition des variables d
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x_i=0)
 ou 1
 
+
+# Résolution
+
+Pour la résolution de problème nous utiliserons la bibliothèque CVXPY qui sert à la résolution de problèmes d'optimisation.
+
+
+```ruby
+import cvxpy
+import numpy as np
+ 
+# Poids limite
+POIDS_LIMITE = 20
+ 
+# Les poids et Valeurs
+poids = np.array([5,7,4,10,10,4,7,3,2,6])
+valeurs = np.array([2,3,1,5,1,3,5,2,1,6])
+ 
+# Variables de décision
+decision = cvxpy.Variable(len(poids),boolean=True)
+ 
+# Contrainte de poids total
+contrainte_poids = poids*decision <= POIDS_LIMITE
+ 
+# Fonction objectif
+fonction_objectif = valeurs*decision
+ 
+# On résout le problème avec CVXPY en précisant sa nature (Maximisation ou Minimisation)
+ 
+# Puis en passant toutes les contraintes en argument dans une liste
+probleme_sacados = cvxpy.Problem(cvxpy.Maximize(fonction_objectif),[contrainte_poids])
+ 
+# On précise le solver à utilisé pour résoudre le problème
+# GLPK_MI est un solver dédié au problème de programmation linéaire en nombres entiers
+probleme_sacados.solve(solver=cvxpy.GLPK_MI)
+```
