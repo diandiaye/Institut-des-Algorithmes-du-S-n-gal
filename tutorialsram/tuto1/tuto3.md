@@ -3,6 +3,13 @@
 ## Programmation Linéaire – Problème Du Sac À Dos_
 
 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;F=\sum_{\substack{i=1..10}}x_iv_i)
+ 
+ sous la contrainte
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{\substack{i=1..10}}x_ip_i\leq20)
+
+
 L’optimisation est un probléme qui consiste à trouver le minimum d’une fonction objectif qui décrit mathématiquement une situation. La programmation linéaire n’est rien de plus que de l’optimisation sur des fonctions objectifs décrites par les équations linéaires. Dans ce tutoriel nous verrons comment résoudre un problème d’optimisation linéaire. À travers, le très célèbre problème du sac à dos que nous résoudrons avec un solveur Python. 
 
 # Résolution d'un probléme d'optimisation
