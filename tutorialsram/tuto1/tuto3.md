@@ -48,4 +48,8 @@ On veut pouvoir avoir une valeur maximale dans le sac à dos. La valeur dans le 
 
 # Définition des variables
 
-$x_i$ est la variable de décision, elle vaut 1 si l'objet i est choisit, 0 sinon.
+$$x_i$$ est la variable de décision, elle vaut 1 si l'objet i est choisit, 0 sinon.
+
+La valeur et le poids de l’objet i sont représentées respectivement par 
+$$v_i$$ et  $$p_i$$
+
