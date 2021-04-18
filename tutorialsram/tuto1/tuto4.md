@@ -9,4 +9,4 @@ On note ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/sv
 
 L'espérence de vie s'exprime comme suit :
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{E}(t)=\sum_{d=1}^\inftydm_{t+d})
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{E}(t)=\sum_{d=1}^\infty dm_{t+d})
