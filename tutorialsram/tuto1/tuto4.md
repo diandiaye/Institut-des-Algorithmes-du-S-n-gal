@@ -7,12 +7,14 @@ On note ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/sv
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;m_{t+1}=\frac{p_{t+d}}{p_t}\frac{p_{t+d}-p_{t+d+1}}{p_{t+d}) 
 
-L'espérence de vie s'exprime comme suit :
+L’espérance de vie s’exprime :
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\mathbb{E}(t)=\sum_{d=1}^\infty{dm_{t+d}}=\sum_{d=1}^\infty{d\frac{P_{t+d}}{P_t}}\frac{P_{t+d}-P_{t+d+1}}{P_{t+d}}=\sum_{d=1}^\infty{d\frac{P_{t+d}-P_{t+d+1}}{P_{t}}})
 
 
 
 
-^\inftydm_{t+d}=\sum_{d=1}^\infty d\frac{P_{t+d}}{P_t}\frac{P_{t+d}-P_{t+d+1}}{P_{t+d}}=\sum_{d=1}^\inftyd\frac{P_{t+d}-P_{t+d+1}}{P_{t}}) 
+```ruby
 
+
+```
