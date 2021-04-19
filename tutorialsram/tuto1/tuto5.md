@@ -90,3 +90,45 @@ Notez que les coefficients ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://la
 
    
 La cellule suivante réalise la régression ridge avec sélection de l'hyperparamètre  α  par validation croisée. Ici, on cherche dans une gamme de valeurs de  α  plus large que celle utilisée par défaut: quelle est-elle exactement? Notez qu'on normalise les caractéristiques et qu'on utilise une validation croisée à 5 plis. Après normalisation, il est d'usage de chercher  α  autour de la valeur 1.
+
+```ruby
+ridge1 = lm.RidgeCV(normalize=True, alphas=np.logspace(-5, 5, 20), cv=5)
+ridge1.fit(X_data,Y_data)
+print("ridge regression, polynome degré 1")
+print(ridge1.intercept_)
+print(ridge1.coef_)
+print("alpha sélectionné: %.5f" %ridge1.alpha_)
+
+ridge2 = lm.RidgeCV(normalize=True, alphas=np.logspace(-5, 5, 20), cv=5)
+ridge2.fit(X_data2,Y_data)
+print("\nridge regression, polynome degré 2")
+print(ridge2.intercept_)
+print(ridge2.coef_)
+print("alpha sélectionné: %.5f" %ridge2.alpha_)
+
+ridge6 = lm.RidgeCV(normalize=True, alphas=np.logspace(-5, 5, 20), cv=5)
+ridge6.fit(X_data6,Y_data)
+print("\nridge regression, polynome degré 6")
+print(ridge6.intercept_)
+print(ridge6.coef_)
+print("alpha sélectionné: %.5f" %ridge6.alpha_)
+```
+
+```ruby
+Y_pred_lrr1=ridge1.predict(X)
+Y_pred_lrr2=ridge2.predict(X2)
+Y_pred_lrr6=ridge6.predict(X6)
+
+plt.figure(figsize=(10,6))
+plt.plot(X_data, Y_data,'o')
+plt.plot(X, Y_pred_lrr1, '-g')
+plt.plot(X, Y_pred_lrr2, '-b')
+plt.plot(X, Y_pred_lrr6, '-c')
+plt.xlim(0, 130)
+plt.ylim(-10, 80)
+plt.xlabel("X: vitesse (km/h)")
+plt.ylabel("Y: distance d'arrêt (m)")
+plt.grid()
+plt.title('régression ridge')
+plt.legend(["observations","modèle degré 1","modèle degré 2","modèle degré 6"]);
+```
