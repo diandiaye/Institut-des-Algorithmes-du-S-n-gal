@@ -7,6 +7,7 @@ Une manière classique de contrer le surapprentissage est de contraindre les par
 
 Dans le cadre de la régression, au lieu d'estimer les paramètres  ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_i)  par minimisation des moindres carrés, on peut chercher à minimiser:
 
+Modéle linéaire/partie2 :
 Pénaliser le modéle linéaire : méthode de Ridge
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{i=1}^n|y[i]-a_0-\sum_{j=1}^da_jx[i]^j|^2+\alpha\sum_{j=1}^da_j^2)
