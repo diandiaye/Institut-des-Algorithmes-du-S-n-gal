@@ -83,7 +83,7 @@ plt.title('régression ridge, d=6')
 plt.legend(["observations","alpha=0","alpha=0.1","alpha=1","alpha=10","alpha=100"]);
 ```
 
-Notez que les coefficients ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_j) ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;{1\leqj\leq6}) diminuent et que ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_0) tend vers la moyenne des ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;Ydata[i]) lorsque α augmente. Il faut maintenant choisir l'hyperparamètre α .
+Notez que les coefficients ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_j) pour j dans (1,6) diminuent et que ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_0) tend vers la moyenne des ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;Ydata[i]) lorsque α augmente. Il faut maintenant choisir l'hyperparamètre α .
 
 
 
