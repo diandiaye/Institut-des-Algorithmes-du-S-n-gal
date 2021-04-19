@@ -132,3 +132,11 @@ plt.grid()
 plt.title('régression ridge')
 plt.legend(["observations","modèle degré 1","modèle degré 2","modèle degré 6"]);
 ```
+
+```ruby
+print("régression ridge polynomiale degré 1, MSE = %.2f" %metrics.mean_squared_error(Y_data,ridge1.predict(X_data)))
+
+print("régression ridge polynomiale degré 2, MSE = %.2f" %metrics.mean_squared_error(Y_data,ridge2.predict(X_data2)))
+
+print("régression ridge polynomiale degré 6, MSE = %.2f" %metrics.mean_squared_error(Y_data,ridge6.predict(X_data6)))
+```
