@@ -22,6 +22,64 @@ Notons deux points discutés dans le polycopié:
 - le coefficient ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;a_0). n'est pas inclus dans la régularisation;
 
 - il vaut mieux normaliser les caractéristiques (les composantes des observations) de manière à ce qu'elles varient dans le même intervalle, sinon la régularisation n'aurait pas le même effet sur chacune d'entre elles.
+
+
 Cette méthode est la régression ridge
 
+L'influence du paramètre α est illustrée par la cellule suivante, dans le cas d'une régression polynomiale.
+
+Remarquez normalize=True, et notez que vous retrouvez bien les valeurs de la régression linéaire classique pour α=0.
+
+
+```ruby
+ridgealpha0 = lm.Ridge(normalize=True,alpha=0)
+ridgealpha0.fit(X_data6,Y_data)
+print("ridge regression alpha=0")
+print(ridgealpha0.intercept_)
+print(ridgealpha0.coef_)
+Y_pred_ridgealpha0 = ridgealpha0.predict(X6)
+
+ridgealpha01 = lm.Ridge(normalize=True,alpha=0.1)
+ridgealpha01.fit(X_data6,Y_data)
+print("\nridge regression alpha=0.1")
+print(ridgealpha01.intercept_)
+print(ridgealpha01.coef_)
+Y_pred_ridgealpha01 = ridgealpha01.predict(X6)
+
+ridgealpha1 = lm.Ridge(normalize=True,alpha=1)
+ridgealpha1.fit(X_data6,Y_data)
+print("\nridge regression alpha=1")
+print(ridgealpha1.intercept_)
+print(ridgealpha1.coef_)
+Y_pred_ridgealpha1 = ridgealpha1.predict(X6)
+
+ridgealpha10 = lm.Ridge(normalize=True,alpha=10)
+ridgealpha10.fit(X_data6,Y_data)
+print("\nridge regression alpha=10")
+print(ridgealpha10.intercept_)
+print(ridgealpha10.coef_)
+Y_pred_ridgealpha10 = ridgealpha10.predict(X6)
+
+ridgealpha100 = lm.Ridge(normalize=True,alpha=100)
+ridgealpha100.fit(X_data6,Y_data)
+print("\nridge regression alpha=100")
+print(ridgealpha100.intercept_)
+print(ridgealpha100.coef_)
+Y_pred_ridgealpha100 = ridgealpha100.predict(X6)
+
+plt.figure(figsize=(10,6))
+plt.plot(X_data, Y_data,'o')
+plt.plot(X, Y_pred_ridgealpha0, '-g')
+plt.plot(X, Y_pred_ridgealpha01, '-b')
+plt.plot(X, Y_pred_ridgealpha1, '-c')
+plt.plot(X, Y_pred_ridgealpha10, '-r')
+plt.plot(X, Y_pred_ridgealpha100, '-k')
+plt.xlim(0, 130)
+plt.ylim(-10, 80)
+plt.xlabel("X: vitesse (km/h)")
+plt.ylabel("Y: distance d'arrêt (m)")
+plt.grid()
+plt.title('régression ridge, d=6')
+plt.legend(["observations","alpha=0","alpha=0.1","alpha=1","alpha=10","alpha=100"]);
+```
 
