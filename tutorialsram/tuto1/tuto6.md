@@ -1,4 +1,7 @@
 
+http://yallouz.arie.free.fr/terminale_cours/graphes/graphes.php?page=g3
+
+
 # Institut des Algorithmes du Sénégal
 
 ## PROBLÈMES DE PLUS COURT CHEMIN
