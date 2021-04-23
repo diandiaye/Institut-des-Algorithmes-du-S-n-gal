@@ -8,8 +8,19 @@ L’idée consiste donc à diviser le problème en 2 : on va calculer ![\Large x
 
 On recommence ensuite avec ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;7^{26}) : on le calcule en faisant ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;(7^{13})^2). N se calcule alors en 13+1+1 opérations au lieu de 52 initialement.
 
-On ne s’arrête pas là, bien entendu : on continue tant que l’on peut utiliser ce principe :
+## Implémentation en Python du “diviser pour régner”
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;N&=7^{52}\\&=(7^{26})^2\\&=\big((7^{13})^2\big)^2\\&=\big[[(7^6)^2\times7]^2\big]^2\\&=\big[[\big((7^3)^2\big)^2\times7]^2\big]^2\\&=\big[[\big((7^2\times7)^2\big)^2\times7]^2\big]^2)
+```ruby
+def puissance(x,n):
+    if n == 0:
+        return 1
+    elif n%2 == 0:
+        return puissance(x*x , n/2)
+    else:
+        return x * puissance(x*x , (n-1)/2)
+    
+print(puissance(4,10))
+```
+
 
 
