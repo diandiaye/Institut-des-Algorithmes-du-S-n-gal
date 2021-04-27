@@ -2,6 +2,8 @@
      
   ## Institut des Algorithmes du Sénégal
   
+  # Probléme d'optimisation sous contraintes
+  
 ![n15](https://user-images.githubusercontent.com/41585144/116281869-6bbff600-a78a-11eb-98d1-d92609d41c10.PNG)
 
   
