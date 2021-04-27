@@ -2,7 +2,7 @@
      
   ## Institut des Algorithmes du Sénégal
   
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/n15.PNG?raw=true)
+![n15](https://user-images.githubusercontent.com/41585144/116281869-6bbff600-a78a-11eb-98d1-d92609d41c10.PNG)
 
   
   
