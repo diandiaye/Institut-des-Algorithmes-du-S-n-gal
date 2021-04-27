@@ -12,7 +12,7 @@
 import numpy as np
 c = np.array([3, 4]) # L'usage de vecteurs (tableau 1D) et matrices (tableau 2D) numpy n'est pas obligatoire mais recommandée
                      # Les tableaux 1D numpy ne sont font pas la distinction entre les vecteurs ligne et les vecteurs colonne.
-b = np.array([5, 7, 10])
+b = np.array([5, 7, 13])
 A = np.array([[ 1, 2],
               [-1, 3],
               [ 2, 1]])
