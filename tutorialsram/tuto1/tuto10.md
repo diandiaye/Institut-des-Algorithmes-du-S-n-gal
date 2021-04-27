@@ -2,7 +2,7 @@
      
   ## Institut des Algorithmes du Sénégal
   
-  ![Alt text](https://assets.digitalocean.com/articles/alligator/n15.png "a title")
+  ![Alt text](https://assets.digitalocean.com/articles/alligator/n15.PNG "a title")
   
   
    ```ruby
