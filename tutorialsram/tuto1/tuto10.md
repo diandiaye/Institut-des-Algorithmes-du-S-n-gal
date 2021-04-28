@@ -3,8 +3,8 @@
   ## Institut des Algorithmes du Sénégal
   
   # Probléme d'optimisation sous contraintes
-  
-![n15](https://user-images.githubusercontent.com/41585144/116285423-606ec980-a78e-11eb-8559-91d760a16353.PNG)
+ 
+![i2](https://user-images.githubusercontent.com/41585144/116446713-8318e500-a857-11eb-8874-3ecaa34a0cff.png)
 
   
    ```ruby
