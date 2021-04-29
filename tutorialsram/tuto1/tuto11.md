@@ -1,6 +1,6 @@
 # Algorithmes du plus court chemin
 
-# Algorithme de Dijkstra
+# 1. Algorithme de Dijkstra
 
 On peut faire appel à la fonction dijkstra du sous-module CSGraph pour appliquer l’algorithme de Dijkstra qui sert à résoudre le problème du plus court chemin dans un graphe orienté pondéré par des réels positifs.
 
@@ -32,4 +32,29 @@ return_predecessors = True)
 print(dist_matrix)
 print(predecessors)
   ```
- Résultat de l’exécution :
+
+
+# 2. Algorithme de Floyd – Warshall
+
+La fonction floyd_warshall permet de calculer les distances des plus courts chemins entre toutes les paires de sommets dans un graphe orienté et pondéré selon l’algorithme Floyd - Warshall.
+
+La fonction floyd_warshall retourne :
+
+- dist_matrix qui est la matrice des distances entre les nœuds du graphe.
+
+- predecessors qui est la matrice des prédécesseurs.
+
+  ```ruby
+from scipy.sparse import csr_matrix
+from scipy.sparse.csgraph import floyd_warshall
+G = [[0, 1, 2, 0, 0],
+[0, 0, 0, 2, 2],
+[0, 3, 0, 5, 0],
+[0, 0, 0, 0, 6],
+[0, 0, 0, 0, 0]]
+G_eparse = csr_matrix(G)
+dist_matrix, predecessors = floyd_warshall ( csgraph = G_eparse, directed = True,
+return_predecessors = True )
+print(dist_matrix)
+print(predecessors)
+  ```
