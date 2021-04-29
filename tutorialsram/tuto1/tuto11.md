@@ -18,7 +18,7 @@ Considérons le graphe ci-après :
 
 On lui applique l’algorithme de Dijkstra.
 
-  ```ruby
+```ruby
   from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import dijkstra
 G = [[0, 1, 2, 0, 0],
@@ -44,7 +44,7 @@ La fonction floyd_warshall retourne :
 
 - predecessors qui est la matrice des prédécesseurs.
 
-  ```ruby
+```ruby
 from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import floyd_warshall
 G = [[0, 1, 2, 0, 0],
@@ -57,4 +57,4 @@ dist_matrix, predecessors = floyd_warshall ( csgraph = G_eparse, directed = True
 return_predecessors = True )
 print(dist_matrix)
 print(predecessors)
-  ```
+```
