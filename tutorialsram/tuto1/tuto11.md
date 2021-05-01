@@ -58,3 +58,53 @@ return_predecessors = True )
 print(dist_matrix)
 print(predecessors)
 ```
+
+## Problémee du voyageur de commerce
+
+```ruby
+import random
+n = 30
+x = [ random.random() for _ in range(n) ]
+y = [ random.random() for _ in range(n) ]
+import matplotlib.pyplot as plt
+plt.plot(x,y,"o")
+def longueur (x,y, ordre):
+    i = ordre[-1]
+    x0,y0 = x[i], y[i]
+    d = 0
+    for o in ordre:
+        x1,y1 = x[o], y[o]
+        d += (x0-x1)**2 + (y0-y1)**2
+        x0,y0 = x1,y1
+    return d
+
+ordre = list(range(len(x)))
+print("longueur initiale", longueur(x,y,ordre))
+
+def permutation(x,y,ordre):
+    d  = longueur(x,y,ordre)
+    d0 = d+1
+    it = 1
+    while d < d0 :
+        it += 1
+        print("iteration",it, "d=",d, "ordre[0]", ordre[0])
+        d0 = d
+        for i in range(1,len(ordre)-1) :  # on part de 1 et plus de 0, on est sûr que le premier noeud ne bouge pas
+            for j in range(i+2,len(ordre)):
+                r = ordre[i:j].copy()
+                r.reverse()
+                ordre2 = ordre[:i] + r + ordre[j:]
+                t = longueur(x,y,ordre2)
+                if t < d :
+                    d = t
+                    ordre = ordre2
+    return ordre
+
+ordre = permutation (x,y,list(range(len(x))))
+print("longueur min", longueur(x,y,ordre))
+xo = [ x[o] for o in ordre + [ordre[0]]]
+yo = [ y[o] for o in ordre + [ordre[0]]]
+plt.plot(xo,yo, "o-")
+plt.text(xo[0],yo[0],"0",color="r",weight="bold",size="x-large")
+plt.text(xo[-2],yo[-2],"N-1",color="r",weight="bold",size="x-large")
+```
