@@ -1,9 +1,3 @@
-implementation
-
-https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
-
-
-
 # Institut des Algorithmes du Sénégal
 
 # Maximum flow - Ford-Fulkerson and Edmonds-Karp
@@ -53,25 +47,7 @@ For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![
 ![AC2QUrlnKR-snapshot2](https://user-images.githubusercontent.com/41585144/116802070-272cb580-ab10-11eb-80e8-2510b90800f7.png)
 
 
-https://brilliant.org/wiki/flow-network/
 
-https://cp-algorithms.com/graph/edmonds_karp.html#toc-tgt-6
-
-
-
-
-
-
-two conditions for the existence of a flow:
-
-The flow of an edge cannot exceed the capacity. 
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(e)\leq{c(e)}) 
-
-And the sum of the incoming flow of a vertex u has to be equal to <br/>
-the sum of the outgoing flow of u except in the source and sink vertices. 
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{(v,u)\in{E}}f((v,u))=\sum_{(u,v)\in{E}}f((u,v))) 
 
 
 
