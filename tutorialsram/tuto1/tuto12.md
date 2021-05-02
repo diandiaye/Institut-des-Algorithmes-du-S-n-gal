@@ -35,9 +35,14 @@ It is easy to see that the following equation holds:
 
 # Below an exellent illustration of flow use case
 
-Imagine a courier service that wants to ship as many widgets as possible from city ss to city tt. Unfortunately, there is no way to ship widgets directly from ss to tt, so the courier service must ship the widgets using the intermediate cities aa, bb, cc, and dd. Particular pairs of cities are connected by flights, which allow the transport of widgets between those cities. This transportation network can be represented by the following directed graph, where nodes represent cities and directed edges represent flights between those cities.
+Imagine a courier service that wants to ship as many widgets as possible from city s to city t. Unfortunately, there is no way to ship widgets directly from ss to tt, so the courier service must ship the widgets using the intermediate cities a, b, c, and d. Particular pairs of cities are connected by flights, which allow the transport of widgets between those cities. This transportation network can be represented by the following directed graph, where nodes represent cities and directed edges represent flights between those cities.
 
 
 
 ![IyToKdbIQx-snapshot1](https://user-images.githubusercontent.com/41585144/116802007-8938eb00-ab0f-11eb-9f26-e6f88f2dbff5.png)
+
+
+Obviously, any realistic airplane can't carry an unlimited number of widgets. Therefore, every flight has a maximum number of widgets that it can carry, dependent on the size of its cargo bay. This maximum is called the capacity for that flight. It is a number associated with each edge in the graph above and denotes the maximum number of widgets that can be transported between cities. The graph below is the graph above plus the corresponding capacities. For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\vec{bc} ) has capacity 9.
+
+![AC2QUrlnKR-snapshot2](https://user-images.githubusercontent.com/41585144/116802070-272cb580-ab10-11eb-80e8-2510b90800f7.png)
 
