@@ -37,8 +37,7 @@ It is easy to see that the following equation holds:
 
 Imagine a courier service that wants to ship as many widgets as possible from city ss to city tt. Unfortunately, there is no way to ship widgets directly from ss to tt, so the courier service must ship the widgets using the intermediate cities aa, bb, cc, and dd. Particular pairs of cities are connected by flights, which allow the transport of widgets between those cities. This transportation network can be represented by the following directed graph, where nodes represent cities and directed edges represent flights between those cities.
 
-![i1](![image](https://user-images.githubusercontent.com/41585144/116801995-70c8d080-ab0f-11eb-80e0-230a285cda56.png))
 
 
-
+![IyToKdbIQx-snapshot1](https://user-images.githubusercontent.com/41585144/116802007-8938eb00-ab0f-11eb-9f26-e6f88f2dbff5.png)
 
