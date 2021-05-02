@@ -68,7 +68,7 @@ The flow of an edge cannot exceed the capacity.
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(e)\leq{c(e)}) 
 
-And the sum of the incoming flow of a vertex u has \n 
+And the sum of the incoming flow of a vertex u has 
 to be equal to the sum of the outgoing flow of u except in the source and sink vertices. 
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\sum_{(v,u)\in{E}}f((v,u))=\sum_{(u,v)\in{E}}f((u,v))) 
