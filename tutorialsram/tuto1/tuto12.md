@@ -47,3 +47,9 @@ For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![
 
 ![AC2QUrlnKR-snapshot2](https://user-images.githubusercontent.com/41585144/116802070-272cb580-ab10-11eb-80e8-2510b90800f7.png)
 
+
+https://brilliant.org/wiki/flow-network/
+
+https://cp-algorithms.com/graph/edmonds_karp.html#toc-tgt-6
+
+
