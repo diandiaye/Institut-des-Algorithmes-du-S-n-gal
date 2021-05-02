@@ -42,7 +42,8 @@ Imagine a courier service that wants to ship as many widgets as possible from ci
 ![IyToKdbIQx-snapshot1](https://user-images.githubusercontent.com/41585144/116802007-8938eb00-ab0f-11eb-9f26-e6f88f2dbff5.png)
 
 
-Obviously, any realistic airplane can't carry an unlimited number of widgets. Therefore, every flight has a maximum number of widgets that it can carry, dependent on the size of its cargo bay. This maximum is called the capacity for that flight. It is a number associated with each edge in the graph above and denotes the maximum number of widgets that can be transported between cities. The graph below is the graph above plus the corresponding capacities. For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\vec{bc} ) has capacity 9.
+Obviously, any realistic airplane can't carry an unlimited number of widgets. Therefore, every flight has a maximum number of widgets that it can carry, dependent on the size of its cargo bay. This maximum is called the capacity for that flight. It is a number associated with each edge in the graph above and denotes the maximum number of widgets that can be transported between cities. The graph below is the graph above plus the corresponding capacities. 
+For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\vec{bc}) has capacity 9.
 
 ![AC2QUrlnKR-snapshot2](https://user-images.githubusercontent.com/41585144/116802070-272cb580-ab10-11eb-80e8-2510b90800f7.png)
 
