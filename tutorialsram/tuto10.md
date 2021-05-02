@@ -15,3 +15,13 @@ http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/expose_TSP.
 https://brilliant.org/wiki/ford-fulkerson-algorithm/
 
 https://cp-algorithms.com/graph/edmonds_karp.html#toc-tgt-6
+
+implementation
+
+https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/
+
+
+
+https://brilliant.org/wiki/flow-network/
+
+https://cp-algorithms.com/graph/edmonds_karp.html#toc-tgt-6
