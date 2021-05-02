@@ -21,6 +21,6 @@ A flow in a flow network is function f, that again assigns each edge e a non-neg
 
 The firste condition is that the flow of an edge cannot exceed the capacity.
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(e)\leq c(e)) 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f(e)\leqc(e)) 
 
 
