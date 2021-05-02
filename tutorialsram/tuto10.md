@@ -10,3 +10,8 @@ https://antoinevastel.com/algorithme/python/algorithmes%20g%C3%A9n%C3%A9tiques/2
 
 
 http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/expose_TSP.html
+
+################################################################################################
+https://brilliant.org/wiki/ford-fulkerson-algorithm/
+
+https://cp-algorithms.com/graph/edmonds_karp.html#toc-tgt-6
