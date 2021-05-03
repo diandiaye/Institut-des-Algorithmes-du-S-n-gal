@@ -59,7 +59,8 @@ Here is an example to demonstrate the method. We use the same flow network as ab
 We can find the path ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
 -A-B-t) with the residual capacities 7, 5 and 8. Their minimum is 5, therefore we can increase the flow along this path by 5. This gives a flow of 5 for the network.
 
-(https://latex.codecogs.com/svg.latex?\Large&space;s![f2](https://user-images.githubusercontent.com/41585144/116946272-f8325300-ac79-11eb-88f1-5357e6b5c9e8.png)
+![f2](https://user-images.githubusercontent.com/41585144/116946457-7262d780-ac7a-11eb-8fb5-303618e2f46d.png)
+
 
 
 ![f3](https://user-images.githubusercontent.com/41585144/116946377-3fb8df00-ac7a-11eb-8a88-39925c489602.png)
