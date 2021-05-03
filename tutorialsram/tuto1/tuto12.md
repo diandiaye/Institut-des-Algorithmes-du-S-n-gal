@@ -66,9 +66,11 @@ We can find the path ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.co
 
 
 
+for every edge (u,v) : 
 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f((u,v))~\text{+=}~C)
 
-
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f((u,v))~\text{-=}~C) 
 
 
 
