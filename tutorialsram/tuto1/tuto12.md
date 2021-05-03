@@ -12,7 +12,7 @@
   
   - Implementation
 
-# Flow network
+# 1. Flow network
 
 In graph theory, a flow network (also known as a transportation network) is a directed graph where each edge has a capacity and each edge receives a flow. The amount of flow on an edge cannot exceed the capacity of the edge.
 
@@ -45,6 +45,29 @@ Obviously, any realistic airplane can't carry an unlimited number of widgets. Th
 For example, the flight from b to c can carry a maximum of 9 widgets, so edge ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\vec{bc}) has capacity 9.
 
 ![AC2QUrlnKR-snapshot2](https://user-images.githubusercontent.com/41585144/116802070-272cb580-ab10-11eb-80e8-2510b90800f7.png)
+
+
+# 2. Ford-Fulkerson method
+
+Let's define one more thing. A residual capacity of an directed edge is the capacity minus the flow. It should be noted that if there is a flow along some directed edge  ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;(u,v)),  then the reversed edge has capacity 0 and we can define the flow of it as ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f((v,u))=-f((u,v))). This also defines the residual capacity for all reversed edges. From all these edges we can create a residual network, which is just a network with the same vertices and same edges, but we use the residual capacities as capacities. The Ford-Fulkerson method works as follows. First we set the flow of each edge to zero. Then we look for an augmenting path from s to t. An augmenting path is simple path in the residual graph, i.e. along the edges whose residual capacity is positive. Is such a path is found, then we can add increase the flow along these edges. We keep on searching for augmenting paths and increasing the flow. Once there doesn't exists an augmenting path any more, the flow is maximal.
+Let us specify in more detail, what increasing the flow along an augmenting path means. Let C be the smallest residual capacity of the edges in the path. Then we increase the flow in the following way: we update ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f((u,v))~\text{+=}~C) and ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;f((u,v))~\text{-=}~C) for every edge (u,v) in the path.
+
+Here is an example to demonstrate the method. We use the same flow network as above. Initially we start with a flow of 0.
+
+![f1](https://user-images.githubusercontent.com/41585144/116946159-bbfef280-ac79-11eb-8802-0556503c0176.png)
+
+We can find the path ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
+-A-B-t) with the residual capacities 7, 5 and 8. Their minimum is 5, therefore we can increase the flow along this path by 5. This gives a flow of 5 for the network.
+
+(https://latex.codecogs.com/svg.latex?\Large&space;s![f2](https://user-images.githubusercontent.com/41585144/116946272-f8325300-ac79-11eb-88f1-5357e6b5c9e8.png)
+
+
+![f3](https://user-images.githubusercontent.com/41585144/116946377-3fb8df00-ac7a-11eb-8a88-39925c489602.png)
+
+
+
+
+
 
 
 
