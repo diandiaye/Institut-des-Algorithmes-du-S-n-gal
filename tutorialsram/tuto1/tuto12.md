@@ -445,12 +445,12 @@ int main()
 ```
 
 
-# References
+# Bibliographie
 
 # ref 1 : https://www.geeksforgeeks.org/ford-fulkerson-algorithm-
 
 # ref 2 : https://cp-algorithms.com/graph/edmonds_karp
 
-# ref 3 : 
+
 
 
