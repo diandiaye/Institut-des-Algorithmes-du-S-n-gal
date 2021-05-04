@@ -319,7 +319,7 @@ class MaxFlow {
 
 ```
 
-# Java
+# C++
 
 ```ruby
 // C++ program for implementation of Ford Fulkerson
