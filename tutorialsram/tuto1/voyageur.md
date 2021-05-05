@@ -1,4 +1,4 @@
-Le problème du voyeur de commerce consiste à résoudre
+Le problème du voyageur de commerce consiste à résoudre
 
 le problème de minimisation suivant :
 
