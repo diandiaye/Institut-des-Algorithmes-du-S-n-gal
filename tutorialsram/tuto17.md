@@ -36,3 +36,14 @@ Before starting, make sure that the following packages are installed in Python e
     - sklearn – used to build the logistic regression model in Python
     - seaborn – used to create the Confusion Matrix
     - matplotlib – used to display charts
+
+Then you can import all the packages as follows:
+
+```ruby
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn import metrics
+import seaborn as sn
+import matplotlib.pyplot as plt
+```r
