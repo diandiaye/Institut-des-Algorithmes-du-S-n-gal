@@ -73,3 +73,33 @@ Now, set the independent variables (represented as X) and the dependent variable
 X = df[['gmat', 'gpa','work_experience']]
 y = df['admitted']
 ```
+
+Then, apply train_test_split. For example, you can set the test size to 0.25, and therefore the model testing will be based on 25% of the dataset, while the model training will be based on 75% of the dataset:
+
+```ruby
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.25,random_state=0)
+```
+
+Apply the logistic regression as follows:
+
+```ruby
+logistic_regression= LogisticRegression()
+logistic_regression.fit(X_train,y_train)
+y_pred=logistic_regression.predict(X_test)
+```
+
+To evoluate the model, use the code below to get the Confusion Matrix:
+
+```ruby
+confusion_matrix = pd.crosstab(y_test, y_pred, rownames=['Actual'], colnames=['Predicted'])
+sn.heatmap(confusion_matrix, annot=True)
+```
+
+For the final part, print the Accuracy and plot the Confusion Matrix:
+
+```ruby
+print('Accuracy: ',metrics.accuracy_score(y_test, y_pred))
+plt.show()
+```
+
+
