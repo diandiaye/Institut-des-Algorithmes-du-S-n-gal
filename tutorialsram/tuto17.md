@@ -29,3 +29,10 @@ We can then build a logistic regression in Python, where:
 
 
 - Step 2: Import the needed Python packages
+
+Before starting, make sure that the following packages are installed in Python environment:
+
+    - pandas – used to create the DataFrame to capture the dataset in Python
+    - sklearn – used to build the logistic regression model in Python
+    - seaborn – used to create the Confusion Matrix
+    - matplotlib – used to display charts
