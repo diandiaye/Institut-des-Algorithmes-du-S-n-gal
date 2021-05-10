@@ -41,7 +41,31 @@ As you can see on the table, the value of the output is always equal to the firs
 Let’s see if we can use some Python code to give the same result (You can peruse the code for this project at the end of this article before continuing with the reading).
 
 
+# Create a NeuralNetwork Class
 
+We’ll create a NeuralNetwork class in Python to train the neuron to give an accurate prediction. The class will also have other helper functions.
+
+
+ven though we’ll not use a neural network library for this simple neural network example, we’ll import the numpy library to assist with the calculations.
+
+The library comes with the following four important methods:
+
+1. exp—for generating the natural exponential
+2. array—for generating a matrix
+3. dot—for multiplying matrices
+4. random—for generating random numbers. Note that we’ll seed the random numbers to ensure their efficient distribution.
+
+
+- Applying the Sigmoid function
+
+This function can map any value to a value from 0 to 1. It will assist us to normalize the weighted sum of the inputs.
+
+Thereafter, we’ll create the derivative of the Sigmoid function to help in computing the essential adjustments to the weights.
+
+The output of a Sigmoid function can be employed to generate its derivative. For example, if the output variable is “x”, then its derivative will be x * (1-x).
+
+
+#  Training the model
 
 ```ruby
 import numpy as np
