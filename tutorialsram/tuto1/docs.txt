@@ -1,2 +1,5 @@
 
 https://www.mathweb.fr/euclide/python-diviser-pour-regner/#:~:text=Le%20principe%20du%20%E2%80%9Cdiviser%20pour%20r%C3%A9gner%E2%80%9D%20en%20Python&text=La%20m%C3%A9thode%20basique%20consiste%20%C3%A0,dire%20(726)2.
+
+
+https://www.kdnuggets.com/2018/10/simple-neural-network-python.html
